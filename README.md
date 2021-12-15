@@ -35,3 +35,4 @@ YouTubeに投稿した動画がこちらになります。
 <https://youtu.be/ktQ407pb7zc>
 ***
 # ライセンス  
+<GNU General Public License v3.0>
