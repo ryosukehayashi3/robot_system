@@ -26,5 +26,11 @@ LEDはアノードがGPIO25にGNDはさしやすいところで問題ありま�
 ***
 # 実行結果  
 `$ echo 1 >> /dev/myled0`  
-
+<img src="https://github.com/ryosukehayashi3/robot_system/blob/main/S__112574466.jpg" width="320">  
 `$ echo 0 >> /dev/myled0`  
+<img src="https://github.com/ryosukehayashi3/robot_system/blob/main/S__112566278.jpg" width="320">  
+***
+# 動画  
+YouTubeに投稿した動画がこちらになります。  
+***
+# ライセンス  
