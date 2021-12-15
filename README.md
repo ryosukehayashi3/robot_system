@@ -16,4 +16,15 @@ echo 0 >> /dev/myled0
 ***
 # 利用した回路  
 以下の写真のように回路を作りました。  
-![回路](https://github.com/ryosukehayashi3/robot_system/blob/main/S__112566278.jpg)
+![回路](https://github.com/ryosukehayashi3/robot_system/blob/main/S__112566278.jpg)  
+LEDはアノードがGPIO25にGNDはさしやすいところで問題ありません。  
+***
+# ビルド方法  
+`$ make`  
+`$ sudo insmod myled.ko`  
+`$ sudo chmod 666 /dev/myled0`  
+***
+# 実行結果  
+`$ echo 1 >> /dev/myled0`  
+
+`$ echo 0 >> /dev/myled0`  
