@@ -1,1 +1,1 @@
-cmd_/home/ubuntu/myled/myled.mod := { echo  /home/ubuntu/myled/myled.o;  echo; } > /home/ubuntu/myled/myled.mod
+cmd_/home/ubuntu/robot_system/myled/myled.mod := { echo  /home/ubuntu/robot_system/myled/myled.o;  echo; } > /home/ubuntu/robot_system/myled/myled.mod

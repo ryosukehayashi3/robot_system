@@ -1,3 +1,8 @@
+//SPDX-License-Identifer: GPL-2.0
+/*
+ * Copyright (C) 2021 Ryosuke Hayashi. All rights reserved.
+ */
+
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/cdev.h>
@@ -5,7 +10,7 @@
 #include <linux/uaccess.h>
 #include <linux/io.h>
 
-MODULE_AUTHOR("Ryosuke Hayashi");
+MODULE_AUTHOR("Ryuichi Ueda and Ryosuke Hayashi");
 MODULE_DESCRIPTION("driver for LED control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.0.1");
@@ -32,9 +37,22 @@ static ssize_t led_write(struct file* flip, const char*buf, size_t count, loff_t
 
 }
 
+static ssize_t sushi_read(struct file* flip, char* buf, size_t count, loff_t*pos)
+{
+	int size = 0;
+	char sushi[] = {0xF0,0x9F,0x8D,0xA3,0x0A};
+	if(copy_to_user(buf+size,(const char *)sushi, sizeof(sushi))){
+		printk( KERN_INFO "sushi : copy_to_user failed\n" );
+		return -EFAULT;
+	}
+	size += sizeof(sushi);
+	return size;
+}
+
 static struct file_operations led_fops = {
 	.owner = THIS_MODULE,
-	.write = led_write
+	.write = led_write,
+	.read = sushi_read
 };
 
 static int __init init_mod(void)

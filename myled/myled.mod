@@ -1,2 +1,2 @@
-/home/ubuntu/myled/myled.o
+/home/ubuntu/robot_system/myled/myled.o
 
