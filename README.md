@@ -22,6 +22,8 @@ echo 0 >> /dev/myled0
 LEDはアノードがGPIO25にGNDはさしやすいところで問題ありません。  
 ***
 # ビルド方法  
+`$ git clone git@github.com:ryosukehayashi3/robot_system.git`  
+`$ cd robot_system/myled`
 `$ make`  
 `$ sudo insmod myled.ko`  
 `$ sudo chmod 666 /dev/myled0`  
