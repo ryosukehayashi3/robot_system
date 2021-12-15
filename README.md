@@ -28,7 +28,7 @@ LEDはアノードがGPIO25にGNDはさしやすいところで問題ありま�
 `$ echo 1 >> /dev/myled0`  
 <img src="S__112574466.jpg" width="320">  
 `$ echo 0 >> /dev/myled0`  
-<img src="S__112566278.jpg" width="320">  
+<img src="https://user-images.githubusercontent.com/94128516/146244268-42220ff1-2d94-42e7-85cd-d25c9455e6f1.jpg" width="320">  
 ***
 # 動画  
 YouTubeに投稿した動画がこちらになります。  
