@@ -32,5 +32,6 @@ LEDはアノードがGPIO25にGNDはさしやすいところで問題ありま�
 ***
 # 動画  
 YouTubeに投稿した動画がこちらになります。  
+<https://youtu.be/ktQ407pb7zc>
 ***
 # ライセンス  
