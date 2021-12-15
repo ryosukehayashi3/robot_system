@@ -16,7 +16,7 @@ echo 0 >> /dev/myled0
 ***
 # 利用した回路  
 以下の写真のように回路を作りました。  
-![回路](https://github.com/ryosukehayashi3/robot_system/blob/main/S__112566278.jpg)  
+<img src="***S__112566278.jpg***" width="***320px***">  
 LEDはアノードがGPIO25にGNDはさしやすいところで問題ありません。  
 ***
 # ビルド方法  
