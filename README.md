@@ -16,7 +16,7 @@ echo 0 >> /dev/myled0
 ***
 # 利用した回路  
 以下の写真のように回路を作りました。  
-<img src="S__112566278.jpg" width="320">  
+<img src="https://user-images.githubusercontent.com/94128516/146244268-42220ff1-2d94-42e7-85cd-d25c9455e6f1.jpg" width="320">  
 LEDはアノードがGPIO25にGNDはさしやすいところで問題ありません。  
 ***
 # ビルド方法  
