@@ -23,7 +23,7 @@ LEDはアノードがGPIO25にGNDはさしやすいところで問題ありま�
 ***
 # ビルド方法  
 `$ git clone git@github.com:ryosukehayashi3/robot_system.git`  
-`$ cd robot_system/myled`
+`$ cd robot_system/myled`  
 `$ make`  
 `$ sudo insmod myled.ko`  
 `$ sudo chmod 666 /dev/myled0`  
