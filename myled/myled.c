@@ -33,14 +33,8 @@ static ssize_t led_write(struct file* flip, const char*buf, size_t count, loff_t
 		return -EFAULT;
 
 	if(c && c != "\n"){
-/*		if(c == "0") gpio_base[10] = 1 << list[0];
-		if(c == "1") gpio_base[7] = 1 << list[0];
-		if(c == "2") gpio_base[10] = 1 << list[1];
-		if(c == "3") gpio_base[7] = 1 << list[1];
-		if(c == "4") gpio_base[10] = 1 << list[2];
-		if(c == "5") gpio_base[7] = 1 << list[2]; */
 
-	if(c == "R"){
+	if(c == "a"){
 		for(i = 0; i <= 10; i++){
 			n = 1000 - 100*i + 1;
 			gpio_base[7] = 1 << list[0];
