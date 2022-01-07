@@ -31,13 +31,13 @@ LEDはアノードがGPIO25にGNDはさしやすいところで問題ありま�
 ***
 # 実行結果  
 `$ echo 1 >> /dev/myled0`  
-<img src="" width="320">  
+<img src="https://user-images.githubusercontent.com/94128516/148501823-95dcc088-5453-4265-bbc4-69a1bbe7b6b6.jpg" width="320">  
 `$ echo 0 >> /dev/myled0`  
 <img src="https://user-images.githubusercontent.com/94128516/148500777-995b65ac-62b0-4d05-90bd-1ef85af45c53.jpg" width="320">  
 ***
 # 動画  
 YouTubeに投稿した動画がこちらになります。  
-<https://youtu.be/ktQ407pb7zc>
+<https://www.youtube.com/watch?v=7X9btLU2-wU>
 ***
 # ライセンス  
 [GNU General Public License v3.0](https://github.com/ryosukehayashi3/robot_system/blob/main/LICENSE)
