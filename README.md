@@ -20,7 +20,7 @@ echo 0 >> /dev/myled0
 # 利用した回路  
 以下の写真のように回路を作りました。  
 <img src="https://user-images.githubusercontent.com/94128516/148500777-995b65ac-62b0-4d05-90bd-1ef85af45c53.jpg" width="320">  
-LEDはアノードがGPIO25にGNDはさしやすいところで問題ありません。  
+LEDはアノードがそれぞれGPIO25、GPIO26にブザーはプラスをGPIO12にGNDはさしやすいところで問題ありません。  
 ***
 # ビルド方法  
 `$ git clone git@github.com:ryosukehayashi3/robot_system.git`  
